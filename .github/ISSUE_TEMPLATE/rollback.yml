@@ -1,16 +1,14 @@
-# .github/ISSUE_TEMPLATE/rollback.yml
-
-name: "Solicitação de Rollback"
-description: "Inicie o processo de reversão do último PR mergeado na main."
+name: "Processo de Rollback Automatizado"
+description: "Inicie o processo de Rollback do último PR mergeado na main."
 title: "[Rollback] Reverter último PR da branch main"
 labels: ["rollback"]
 body:
   - type: markdown
     attributes:
       value: |
-        **Atenção:** Este processo irá iniciar a reversão do último Pull Request que foi integrado à branch `main`.
+        **Atenção:** Este processo irá iniciar o Rollback do último Pull Request que foi integrado à branch `main`.
 
-        Por favor, confirme os detalhes abaixo antes de criar a Issue. A automação irá identificar o PR e postar um link para confirmar a reversão.
+        Por favor, confirme os detalhes abaixo antes de criar a Issue. A automação irá identificar o PR e fazer o processo automaticamente.
 
   - type: textarea
     id: reason
