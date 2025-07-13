@@ -1,0 +1,12 @@
+﻿# Label para processos de Rollback
+- name: "rollback"
+  description: "Marca uma issue ou PR relacionado a um processo de Rollback de código."
+  color: "b60205"
+
+- name: "bug"
+  description: "Algo não está funcionando como esperado."
+  color: "d73a4a"
+
+- name: "documentation"
+  description: "Melhorias ou adições na documentação."
+  color: "0075ca"

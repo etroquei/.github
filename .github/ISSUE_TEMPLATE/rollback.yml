@@ -3,7 +3,7 @@
 name: "Solicitação de Rollback"
 description: "Inicie o processo de reversão do último PR mergeado na main."
 title: "[Rollback] Reverter último PR da branch main"
-labels: ["rollback", "bug"]
+labels: ["rollback"]
 body:
   - type: markdown
     attributes:
