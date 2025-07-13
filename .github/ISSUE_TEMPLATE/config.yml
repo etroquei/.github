@@ -3,7 +3,7 @@ blank_issues_enabled: false
 
 # (Opcional) Você pode adicionar links para documentação externa ou fóruns de discussão.
 # Se um usuário não souber qual template usar, ele verá estes links.
-# contact_links:
-#   - name: Dúvidas Gerais
-#     url: https://github.com/etroquei # Link para a página principal da organização ou um repositório de discussões
-    # about: Por favor, use este canal para perguntas que não se encaixam nos templates.
+contact_links:
+  - name: Sugerir novo template
+    url: https://etroqueiworkspace.slack.com/archives/C06DHFCG1KL
+    about: Por favor, use este canal se você deseja sugerir novos templates.
